@@ -4,10 +4,9 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <!--создание колонок-->
         <property name="hibernate.hbm2ddl.auto">update</property>
 
-        <property name="connection.url">jdbc:mysql://178.150.196.140:7306/twit_bd</property>
+        <property name="connection.url">jdbc:mysql://111.111.111.111:1111/twit_bd</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="connection.username">twitserver</property>
         <property name="connection.password">Alex666twit*</property>
